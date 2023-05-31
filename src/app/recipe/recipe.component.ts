@@ -19,7 +19,7 @@ export class RecipeComponent {
 
   ngOnInit(): void {
     let id = this.activatedRoute.snapshot.params['recipeId'];
-    this.httpClient.get('http://localhost:4100/prompt', { params: { id } }).subscribe(response => {
+    this.httpClient.get('https://mychef.prayoshaprintnpacks.com/prompt', { params: { id } }).subscribe(response => {
       this.recipe = response;
       this.recipe.allergies = JSON.parse(this.recipe.allergies);
       if (this.recipe.cuisine?.includes('[')) {
