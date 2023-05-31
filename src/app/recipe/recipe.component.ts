@@ -74,7 +74,11 @@ export class RecipeComponent {
     return JSON.stringify(ingredients)
   }
 
-  getParsed() {
+  getIngredients() {
     return JSON.parse(this.getRecipeIngredient());
+  }
+
+  getName() {
+    return this.getRecipeName().trim();
   }
 }
