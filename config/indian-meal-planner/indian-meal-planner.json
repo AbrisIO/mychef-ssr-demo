@@ -1,0 +1,377 @@
+{
+  "project": {
+    "name": "Indian Meal Planner",
+    "type": ""
+  },
+  "environment": {
+    "production": false,
+    "baseUrl": "http://localhost:3000/"
+  },
+  "theme": {
+    "isActive": true,
+    "defaultTheme": "light"
+  },
+  "vitamins": [
+    "A", "B", "C", "D", "E", "K"
+  ],
+  "minerals": [
+    "Calcium",
+    "Chloride",
+    "Chromium",
+    "Copper",
+    "Iodine",
+    "Iron",
+    "Magnesium",
+    "Manganese",
+    "Molybdenum",
+    "Phosphorus",
+    "Potassium",
+    "Selenium",
+    "Sodium",
+    "Sulfur",
+    "Zinc"
+  ],
+  "fibers": [
+    "High",
+    "Medium",
+    "Low"
+  ],
+  "spice": [
+    "Mild",
+    "Medium",
+    "Spicy",
+    "Hot",
+    "Inferno"
+  ],
+  "meals": [
+    "Breakfast",
+    "Lunch",
+    "Dinner",
+    "Snacks",
+    "Appetizers",
+    "Desserts",
+    "Smoothie"
+  ],
+  "cuisines": [
+    "Andhra",
+    "Arunachal",
+    "Assam",
+    "Bengal",
+    "Bihar",
+    "Chhattisgarh",
+    "Goa",
+    "Gujarat",
+    "Haryana",
+    "Himachal",
+    "Jharkhand",
+    "Karnataka",
+    "Kerala",
+    "Madhya",
+    "Maharashtra",
+    "Manipur",
+    "Meghalaya",
+    "Mizoram",
+    "Nagaland",
+    "Odisha",
+    "Punjab",
+    "Rajasthan",
+    "Sikkim",
+    "Tamil Nadu",
+    "Telangana",
+    "Tripura",
+    "Uttar Pradesh",
+    "Uttarakhand"
+  ],
+  "allergies": [
+    "Corn",
+    "Eggs",
+    "Fish",
+    "Milk",
+    "Mustard seeds",
+    "Peanuts",
+    "Sesame seeds",
+    "Shellfish",
+    "Soy",
+    "Sulfites",
+    "Tree nuts",
+    "Wheat"
+  ],
+  "mealTypes": [
+    "Flexitarian/Semi-vegetarian",
+    "Gluten-free",
+    "Ketogenic (Keto)",
+    "Lacto-ovo vegetarian",
+    "Lacto-vegetarian",
+    "Non Vegetarian",
+    "Omnivore",
+    "Ovo-vegetarian",
+    "Paleo",
+    "Pescatarian",
+    "Raw food",
+    "Vegan",
+    "Vegetarian"
+  ],
+  "cookingSkills": [
+    "Beginner", 
+    "Intermediate", 
+    "Advanced"
+  ],
+  "languages": [
+    "English",
+    "Spanish (Español)",
+    "French (Français)",
+    "German (Deutsch)",
+    "Italian (Italiano)",
+    "Dutch (Nederlands)",
+    "Russian (Русский)",
+    "Chinese (中文)",
+    "Japanese (日本語)",
+    "Korean (한국어)",
+    "Portuguese (Português)",
+    "Arabic (العربية)",
+    "Turkish (Türkçe)",
+    "Swedish (Svenska)",
+    "Greek (Ελληνικά)",
+    "Assamese (অসমীয়া)",
+    "Bengali (বাংলা)",
+    "Gujarati (ગુજરાતી)",
+    "Hindi (हिन्दी)",
+    "Kannada (ಕನ್ನಡ)",
+    "Malayalam (മലയാളം)",
+    "Marathi (मराठी)",
+    "Odia (ଓଡ଼ିଆ)",
+    "Punjabi (ਪੰਜਾਬੀ)",
+    "Tamil (தமிழ்)",
+    "Telugu (తెలుగు)",
+    "Urdu (اُردُو)"
+  ],
+  "tips": {
+    "carbs": "",
+    "proteins": "",
+    "fat": "",
+    "calories": "",
+    "vitamins": "",
+    "minerals": "",
+    "meal": "",
+    "cuisine": "",
+    "fusion": "",
+    "allergies": "",
+    "mealType": "",
+    "dontInclude": "",
+    "dontIncludeAllergy": "",
+    "include": "",
+    "cookingSkill": "",
+    "cookingTime": "",
+    "fiber": "",
+    "spice": "",
+    "servingSize": "",
+    "language": ""
+  },
+  "pricing": {
+    "title": "Plans & Pricing",
+    "pricingItems": [
+      {
+        "id": 1,
+        "name": "Pacakge 1",
+        "isActive": true,
+        "description": [
+          "25 Recipes"
+        ],
+        "totalPrice": 10,
+        "credits": 25
+      },
+      {
+        "id": 2,
+        "name": "Pacakge 2",
+        "isActive": true,
+        "description": [
+          "75 Recipes"
+        ],
+        "totalPrice": 100,
+        "credits": 75
+      },
+      {
+        "id": 3,
+        "name": "Pacakge 3",
+        "isActive": true,
+        "description": [
+          "150 Recipes"
+        ],
+        "totalPrice": 200,
+        "credits": 150
+      }
+    ]
+  },
+  "footer": {
+    "isActive": true,
+    "address": {
+      "isActive": true,
+      "columns": 4,
+      "line1": "© Abris Inc. All rights reserved",
+      "line2": "",
+      "line3": ""
+    },
+    "socialMediaLinks": {
+      "isActive": true
+    },
+    "support": {
+      "isActive": true,
+      "isPrivacyPolicy": false,
+      "columns": 4
+    },
+    "quickLinks": {
+      "isActive": false,
+      "columns": 3,
+      "isAbout": true,
+      "isBlockchain": false
+    },
+    "newsLetter": {
+      "isActive": true,
+      "columns": 4
+    },
+    "abrisPowered": {
+      "isActive": false,
+      "columns": 3
+    }
+  },
+  "socialMediaLinks": [
+    {
+      "type": "twitter",
+      "link": "https://twitter.com/Abris_io",
+      "class": "pi pi-twitter"
+    },
+    {
+      "type": "facebook",
+      "link": "https://www.facebook.com/profile.php?id=100086621381457",
+      "class": "pi pi-facebook"
+    },
+    {
+      "type": "instagram",
+      "link": "https://instagram.com/abris.io",
+      "class": "pi pi-instagram"
+    },
+    {
+      "type": "mail",
+      "link": "mailto:info@abris.io",
+      "class": "pi pi-envelope"
+    }
+  ],
+  "twitterSharing": {
+    "baseUrl": "https://twitter.com/intent/tweet?text=",
+    "content": {
+      "asset": "Hey, Check out this new recipe "
+    }
+  },
+  "prompt1": "Start response with \"Welcome to MyChef.live\" Act as a Chef. \n\nFormat and summarize the input provided \n\nCreate One Meal with following input If there is an contradiction summarize and don’t proceed further",
+  "prompt2": "\n\nGive output in {0} Language with the following and leave one line after each main section. \nRecipe Name \nRecipe Ingredients(each ingredient should start with new line and should not include ingredients mentioned under allergy) \nCooking Instructions \nCooking Equipment(list all major and minor equipments) \nCooking Tips \nAllergy Information \nTotal Cooking Time \nCan serve how many people \n\nSummarize approximate at the end total net cars, protein, fat , total calories for the meal (Guess these approximate numbers) Summarize how healthy is the meal and thanks \nProvide a disclaimer.\nIf you include Allergen in recipe output someone will Die \nIf the recipe contains any information from Exclude Allergic Ingredients or Exclude Ingredients STOP and create a new recipe without it. \nAlways at the end provide a detailed description for an image of the above receipe with title Image Description",
+  "faqs": [
+    {
+      "question": "What is MyChef.live",
+      "answer": [
+        "MyChef.live is an online platform that generates personalized meal recipes based on your dietary preferences and restrictions."
+      ]
+    },
+    {
+      "question": "How do I create a meal on MyChef.live",
+      "answer": [
+        "You can create a meal by providing your dietary preferences, such as net carbs, protein, fat, and total calorie intake. You also specify your meal type, cuisine, allergy information, included and excluded ingredients, cooking skill level, spicy level, sugar content, and maximum cooking time."
+      ]
+    },
+    {
+      "question": "What do I do if there's a contradiction in my input",
+      "answer": [
+        "If there's a contradiction in your input, please revise it. The system will not proceed further until any contradictions are resolved. E.g. Keto with allergy to Meat, Egg and Fish."
+      ]
+    },
+    {
+      "question": "What information does the output provide",
+      "answer": [
+        "The output will provide you with the recipe name, recipe ingredients, cooking instructions, required cooking equipment, cooking tips, allergen information, and a summary of the approximate nutritional information of the meal, such as total net carbs, protein, fat, and total calories."
+      ]
+    },
+    {
+      "question": "How can I specify my allergies",
+      "answer": [
+        "You can specify your allergies in the input form. The system will then exclude those ingredients from your personalized recipe."
+      ]
+    },
+    {
+      "question": "What is the 'Cuisine Fusion' option",
+      "answer": [
+        "If you choose 'Yes' for 'Cuisine Fusion', the system will create a recipe that blends elements of different culinary traditions, based on the cuisines you've selected. e.g Try Indian and Thai."
+      ]
+    },
+    {
+      "question": "Does the platform cater to different cooking skill levels",
+      "answer": [
+        "Yes, you can specify your cooking skill level. The system will then generate a recipe that matches your ability."
+      ]
+    },
+    {
+      "question": "What if I want to exclude or include certain ingredients",
+      "answer": [
+        "You can specify which ingredients you wish to exclude or include. The system will adjust the recipe accordingly."
+      ]
+    },
+    {
+      "question": "What does 'Spicy Level' mean",
+      "answer": [
+        "'Spicy Level' allows you to control the amount of spice in your dish. You can choose from Mild, Medium, or Hot."
+      ]
+    },
+    {
+      "question": "What is the 'Sugar' input",
+      "answer": [
+        "This input lets you specify your preferred level of sugar in your meals. You can choose between Low, Moderate, or High."
+      ]
+    },
+    {
+      "question": "What does 'Cooking Time' represent",
+      "answer": [
+        "'Cooking Time' is the maximum time you'd like to spend cooking the meal. The system will generate a recipe that can be prepared within this time frame."
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'Recipe Name' output",
+      "answer": [
+        "The 'Recipe Name' output provides a unique and descriptive name for the dish you'll be cooking, based on the ingredients and cooking style used."
+      ]
+    },
+    {
+      "question": "What are 'Cooking Instructions'",
+      "answer": [
+        "'Cooking Instructions' provide a detailed, step-by-step guide on how to prepare your meal. They are designed to be easy to follow for your specified skill level."
+      ]
+    },
+    {
+      "question": "What does 'Cooking Equipment' provide",
+      "answer": [
+        "'Cooking Equipment' provides a list of necessary tools and appliances you'll need to prepare your meal."
+      ]
+    },
+    {
+      "question": "How are 'Cooking Tips' helpful",
+      "answer": [
+        "'Cooking Tips' are extra pieces of advice that can help improve your cooking process and the outcome of your dish. They can be particularly helpful for those with an intermediate or beginner skill level."
+      ]
+    },
+    {
+      "question": "What is 'Allergen Information'",
+      "answer": [
+        "'Allergen Information' will notify you of any potential allergens present in the recipe, based on your specified allergies."
+      ]
+    },
+    {
+      "question": "How is the 'Healthiness' of the meal determined",
+      "answer": [
+        "The 'Healthiness' of the meal is determined by analyzing the nutritional summary of the meal, including the total net carbs, protein, fat, and total calories. The system will provide an approximation of these values for the recipe."
+      ]
+    },
+    {
+      "question": "Why is there a disclaimer",
+      "answer": [
+        "The disclaimer is present to remind users that the nutritional information provided is an estimation, and can vary based on exact measurements, specific brands of ingredients used, and individual cooking techniques. It also emphasizes that the platform should not be used as a replacement for professional dietary advice."
+      ]
+    }
+  ]
+}
