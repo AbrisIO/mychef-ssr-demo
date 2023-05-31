@@ -34,11 +34,11 @@ export class RecipeComponent {
         {
           "@context": "https://schema.org/",
           "@type": "Recipe",
-          "name": "${this.getRecipeName()}",
+          "name": "${this.getRecipeName().trim()}",
           "recipeIngredient": ${this.getRecipeIngredient()},
           "aggregateRating": {
             "@type": "AggregateRating",
-            "ratingValue": "5",
+            "ratingValue": "5", 
             "ratingCount": "18"
           }
         }
@@ -62,12 +62,12 @@ export class RecipeComponent {
   getRecipeName() {
     let substring = this.recipe.promptResponse.split("\n");
     let recipieName = substring.find((s: any) => s.includes("Recipe Name"));
-    let name = recipieName.split(":")[1]
+    let name = recipieName.split(":")[1];
     return name;
   }
 
   getRecipeIngredient() {
-    let substrings = this.recipe.promptResponse.split("\n");
+    let substrings = this.recipe.promptResponse.split("\n- ");
     let recipieIngredientsIndex = substrings.findIndex((s: any) => s.includes("Recipe Ingredients"));
     let cookingInstructionsIndex = substrings.findIndex((s: any) => s.includes("Cooking Instructions"));
     let ingredients = substrings.slice(recipieIngredientsIndex + 1, cookingInstructionsIndex - 1);
